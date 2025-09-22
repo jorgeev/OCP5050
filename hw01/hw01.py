@@ -67,16 +67,16 @@ def density_EoS(water_mass,
     rho_EoS = rho_0 * (1 - t1 - t2 - t3 + t4)
     return rho_EoS
 
-print(f"Density of NADW at h=0: {density_EoS(nadw, gamma_b, gamma_c, h=h0)} kg/m^3")
-print(f"Density of AABW at h=0: {density_EoS(aabw, gamma_b, gamma_c, h=h0)} kg/m^3")
-print(f"Density of NADW at h=4000: {density_EoS(nadw, gamma_b, gamma_c, h=h4)} kg/m^3")
-print(f"Density of AABW at h=4000: {density_EoS(aabw, gamma_b, gamma_c, h=h4)} kg/m^3")
+print(f"Density of NADW at h={h0:1f}m: {density_EoS(nadw, gamma_b, gamma_c, h=h0):.4f} kg/m^3")
+print(f"Density of AABW at h={h0:1f}m: {density_EoS(aabw, gamma_b, gamma_c, h=h0):.4f} kg/m^3")
+print(f"Density of NADW at h={h4:1f}m: {density_EoS(nadw, gamma_b, gamma_c, h=h4):.4f} kg/m^3")
+print(f"Density of AABW at h={h4:1f}m: {density_EoS(aabw, gamma_b, gamma_c, h=h4):.4f} kg/m^3")
 
 # If gamma_b = 0
 print("If gamma_b = 0")
-print(f"Density of NADW at h=0: {density_EoS(nadw, 0.0, gamma_c, h=h0)} kg/m^3")
-print(f"Density of AABW at h=0: {density_EoS(aabw, 0.0, gamma_c, h=h0)} kg/m^3")
-print(f"Density of NADW at h=4000: {density_EoS(nadw, 0.0, gamma_c, h=h4)} kg/m^3")
-print(f"Density of AABW at h=4000: {density_EoS(aabw, 0.0, gamma_c, h=h4)} kg/m^3")
+print(f"Density of NADW at h={h0:1f}m: {density_EoS(nadw, 0.0, gamma_c, h=h0):.4f} kg/m^3")
+print(f"Density of AABW at h={h0:1f}m: {density_EoS(aabw, 0.0, gamma_c, h=h0):.4f} kg/m^3")
+print(f"Density of NADW at h={h4:1f}m: {density_EoS(nadw, 0.0, gamma_c, h=h4):.4f} kg/m^3")
+print(f"Density of AABW at h={h4:1f}m: {density_EoS(aabw, 0.0, gamma_c, h=h4):.4f} kg/m^3")
 
 # %%
