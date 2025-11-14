@@ -45,3 +45,4 @@ During this lab we analyzed several experiment that help us to visually understa
 In the Ekman Pumping experiment we demonstrated the effect of the wind stress on the ocean, and how due to this force the water is pushed to the right of the wind flow directions, in the northern hemisphere. This creates a net transport that creates a convergence towards the center and pushes the surface water to the depth and on the contrary, when we have situacion of divergence we push water from the depth to the surface.
 
 In the Taylor Columns experiment we demonstrated the effect of the solid body rotation on the fluid, and how this creates a 2D flow pattern that pushes the flow around and obstacle. An effect that we can also observe in the ocean, and atmosphere, where the currents are pushed around topograpic obstacles like mountains.
+
