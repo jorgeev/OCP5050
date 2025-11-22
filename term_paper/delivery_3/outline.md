@@ -34,7 +34,7 @@ geometry:
    - Analysis of the reconstructed fields againts the full model fields
 
 4. Discussion
-    - Comparison against Olvera-Prado et al. (2023), compare similarities and differences in the explained variance, phase and amplitude of the first 5 modes.
+    - Comparison against Olvera-Prado et al. (2023), compare similarities and differences in the explained variance, phase and amplitude of the first 4 modes.
     - Also compare the time series of the PCA to verify if they capture cyclical behaviors that can qualify as recurrent.
 
 5. Conclusion
